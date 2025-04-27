@@ -13,6 +13,12 @@
 # VS Code settings
 .vscode/
 
+# JetBrains IDEs (IntelliJ, PhpStorm, PyCharm etc)
+.idea/
+
+# Ignorar arquivos .iml
+*.iml
+
 # Package Files #
 *.jar
 *.war
