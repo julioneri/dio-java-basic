@@ -8,7 +8,7 @@ Este projeto simula operações básicas de uma lanchonete usando conceitos de p
 
 - lanchonete.atendimento.cozinha: rotinas internas da cozinha.
 
-# Observações
+## Observações
 - Foco em práticas básicas de modelagem de classes e métodos.
 
 - Simulação didática sem integração real com banco de dados ou interface gráfica.
