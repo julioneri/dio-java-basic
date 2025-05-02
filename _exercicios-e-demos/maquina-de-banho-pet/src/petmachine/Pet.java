@@ -1,3 +1,5 @@
+package petmachine;
+
 // Classe que representa o pet
 public class Pet {
     private final String name; // Nome do pet
@@ -10,15 +12,15 @@ public class Pet {
     }
 
     // Métodos de acesso ao nome e estado de limpeza do pet
-    public String getName() {
+    protected String getName() {
         return name;
     }
 
-    public boolean isClean() {
+    protected boolean isClean() {
         return clean;
     }
 
-    public void setClean(boolean clean) {
+    protected void setClean(boolean clean) {
         this.clean = clean; // Atualiza o estado de limpeza do pet
     }
 }

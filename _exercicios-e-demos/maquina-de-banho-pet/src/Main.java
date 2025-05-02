@@ -1,10 +1,15 @@
 import java.util.Scanner;
 
+import petmachine.Pet;
+import petmachine.PetMachine;
+import petmachine.PetMachineService;
+
 public class Main {
     private final static Scanner scanner = new Scanner(System.in);
-
+    
     // Instância da máquina de pets
     private final static PetMachine petMachine = new PetMachine();
+    private final static PetMachineService petMachineService = new PetMachineService(petMachine);
     
     public static void main(String[] args) {
         // scanner.useDelimiter("\\n");
@@ -23,6 +28,7 @@ public class Main {
             System.out.println("| 8 - Retirar pet da máquina            |");
             System.out.println("| 9 - Limpar máquina                    |");
             System.out.println("| 0 - Sair                              |");
+            System.out.println("|=======================================|");
 
             // Lê a opção escolhida
             ConsoleUtils.printWithColor("Digite a opção: ", ConsoleUtils.YELLOW, false);
@@ -31,31 +37,41 @@ public class Main {
             // Executa a ação correspondente à opção
             switch (option) {
                 case 1:
-                    petMachine.takeAShower(); // Dar banho no pet
+                    // Dar banho no pet
+                    petMachineService.takeAShower();
                     break;
                 case 2:
-                    setWater(); // Abastecer a máquina com água
+                    // Abastecer a máquina com água
+                    petMachineService.addWater();
                     break;
                 case 3:
-                    setShampoo(); // Abastecer a máquina com shampoo
+                    // Abastecer a máquina com shampoo
+                    petMachineService.addShampoo();
                     break;
                 case 4:
-                    verifyWater(); // Verificar água
+                    // Verificar água
+                    ConsoleUtils.printWithColor("A máquina está no momento com " + petMachineService.getWater() + " litro(s) de água.", ConsoleUtils.GREEN);
                     break;
                 case 5:
-                    verifyShampoo(); // Verificar shampoo
+                    // Verificar shampoo
+                    ConsoleUtils.printWithColor("A máquina está no momento com " + petMachineService.getShampoo() + " litro(s) de shampoo.", ConsoleUtils.GREEN);
                     break;
                 case 6:
-                    checkIfHasPetInMachine(); // Verificar se há pet
+                    // Verificar se há pet
+                    boolean hasPet = petMachineService.hasPet();
+                    ConsoleUtils.printWithColor(hasPet ? "Há pet na máquina" : "Não há pet na máquina.", hasPet ? ConsoleUtils.GREEN : ConsoleUtils.RED);
                     break;
                 case 7:
-                    setPetInPetMachine(); // Colocar pet na máquina
+                    // Colocar pet na máquina
+                    setPetInPetMachine();
                     break;
                 case 8:
-                    petMachine.removePet(); // Retirar pet
+                    // Retirar pet
+                    petMachineService.removePet();
                     break;
                 case 9:
-                    petMachine.wash(); // Limpar a máquina
+                    // Limpar a máquina
+                    petMachineService.washMachine();
                     break;
                 case 0:
                     ConsoleUtils.printWithColor("Saindo... até logo!", ConsoleUtils.GREEN);
@@ -68,33 +84,6 @@ public class Main {
         } while (true);
     }
 
-    // Métodos auxiliares (Abastecer água, shampoo, verificar status etc.)
-
-    private static void setWater() {
-        ConsoleUtils.printWithColor("Tentando colocar água na máquina...", ConsoleUtils.YELLOW);
-        petMachine.addWater();
-    }
-
-    private static void setShampoo() {
-        ConsoleUtils.printWithColor("Tentando colocar shampoo na máquina...", ConsoleUtils.YELLOW);
-        petMachine.addShampoo();
-    }
-
-    private static void verifyWater() {
-        var amout = petMachine.getWater();
-        ConsoleUtils.printWithColor("A máquina está no momento com " + amout + " litro(s) de água.", ConsoleUtils.GREEN);
-    }
-
-    private static void verifyShampoo() {
-        var amout = petMachine.getShampoo();
-        ConsoleUtils.printWithColor("A máquina está no momento com " + amout + " litro(s) de shampoo.", ConsoleUtils.GREEN);
-    }
-
-    private static void checkIfHasPetInMachine() {
-        var hasPet = petMachine.hasPet();
-        ConsoleUtils.printWithColor(hasPet ? "Há pet na máquina" : "Não há pet na máquina.", hasPet ? ConsoleUtils.GREEN : ConsoleUtils.RED);
-    }
-
     public static void setPetInPetMachine() {
         String name = "";
 
@@ -103,6 +92,6 @@ public class Main {
             name = scanner.next();
         }
         Pet pet = new Pet(name);
-        petMachine.setPet(pet);
+        petMachineService.setPet(pet);
     }
 }
