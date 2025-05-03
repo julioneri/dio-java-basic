@@ -16,9 +16,13 @@ Este é um projeto simples em Java que simula o funcionamento de uma máquina de
 
 ```
 src/
-├── Main.java           # Classe principal, contém o menu de interação.
-├── Pet.java            # Representa o pet com nome e status de limpeza.
-└── PetMachine.java     # Representa a máquina de banho e sua lógica.
+├── Main.java                   # Classe principal, responsável pelo menu de interação com o usuário.
+├── ConsoleUtils.java           # Utilitários para entrada e saída no console.
+└── petmachine/
+    ├── Pet.java                # Representa o pet, com atributos como nome e status de limpeza.
+    ├── PetMachine.java         # Representa a máquina de banho, com sua lógica e recursos.
+    └── PetMachineService.java  # Camada de serviço que intermedia as operações entre o pet e a máquina.
+
 ```
 
 ## 🧼 Regras da Máquina
