@@ -15,12 +15,23 @@ Este projeto em Java simula um sistema de emissão de ingressos para cinema, uti
 
 ## Estrutura do Projeto
 
-* **Ingresso.java**: Classe abstrata `sealed` que define os atributos e o contrato para cálculo do valor final dos ingressos.
-* **IngressoMeia.java**: Subclasse `non-sealed` que representa o ingresso de meia entrada (50% do valor).
-* **IngressoFamilia.java**: Subclasse `non-sealed` que representa ingresso familiar com possível desconto.
-* **TipoAudio.java**: Enum que define se o áudio do filme é `DUBLADO` ou `ORIGINAL`.
-* **TipoLegenda.java**: Enum com opções de legenda (`NENHUMA`, `TRADUCAO`, `DESCRITIVA`).
 * **App.java**: Classe principal que cria e exibe ingressos com diferentes configurações.
+* **Ingresso.java**: Classe abstrata `sealed` que define os atributos e contrato para o cálculo do valor dos ingressos.
+* **IngressoMeia.java**: Subclasse `non-sealed` que representa o ingresso de meia entrada (50% do valor).
+* **IngressoFamilia.java**: Subclasse `non-sealed` que representa o ingresso familiar com desconto progressivo.
+* **TipoAudio.java**: Enum que define os tipos de áudio (`DUBLADO`, `ORIGINAL`).
+* **TipoLegenda.java**: Enum com opções de legenda (`NENHUMA`, `TRADUCAO`, `DESCRITIVA`).
+
+```
+src/
+├── App.java                   # Classe principal para testes e exibição dos ingressos.
+└── ingresso/
+    ├── Ingresso.java          # Estrutura base de um ingresso.
+    ├── IngressoMeia.java      # Ingresso com meia entrada.
+    ├── IngressoFamilia.java   # Ingresso familiar com desconto.
+    ├── TipoAudio.java         # Tipos de áudio disponíveis.
+    └── TipoLegenda.java       # Tipos de legenda disponíveis.
+```
 
 ## Exemplo de Saída
 
