@@ -27,7 +27,7 @@ public class CarrinhoDeCompras {
             }
         }
 
-        if (itensParaRemover.size() == 0) {
+        if (itensParaRemover.isEmpty()) {
             System.out.println("Nenhum item com este nome foi encontrado.");
             return;
         }
