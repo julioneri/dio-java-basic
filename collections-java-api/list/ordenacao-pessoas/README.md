@@ -35,3 +35,7 @@ Este código foi desenvolvido como parte do módulo de **Collections em Java**, 
 =======================================
 [Pessoa [nome=Nome 1, idade=20, altura=1.57], Pessoa [nome=Nome 4, idade=17, altura=1.57], Pessoa [nome=Nome 3, idade=25, altura=1.7]]
 ```
+
+## 📌 Observações
+
+* As listas ordenadas são novas instâncias, preservando a lista original.
