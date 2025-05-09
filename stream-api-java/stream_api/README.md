@@ -15,6 +15,7 @@ Aqui estão alguns dos desafios que já fiz, e que estou expandindo constantemen
 * **Desafio 3** - Verificando se todos os números da lista são positivos
 * **Desafio 4** - Removendo todos os valores ímpares
 * **Desafio 5** - Calculando a média dos números maiores que 5
+* **Desafio 6** - Verificando se a lista contém algum número maior que 10
 
 > **Nota:** Cada exercício pode ser visto como um aprendizado específico, e estarei atualizando o repositório com mais desafios e demos conforme for avançando no estudo da linguagem.
 
