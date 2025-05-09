@@ -12,6 +12,7 @@ Aqui estão alguns dos desafios que já fiz, e que estou expandindo constantemen
 
 * **Desafio 1** - Mostrando a lista na ordem numérica
 * **Desafio 2** - Imprimindo a soma dos números pares da lista
+* **Desafio 3** - Verificando se todos os números da lista são positivos
 
 > **Nota:** Cada exercício pode ser visto como um aprendizado específico, e estarei atualizando o repositório com mais desafios e demos conforme for avançando no estudo da linguagem.
 
