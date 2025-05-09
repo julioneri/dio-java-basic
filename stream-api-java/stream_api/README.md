@@ -10,7 +10,8 @@ O objetivo deste repositório é reunir e organizar todos os exercícios que est
 
 Aqui estão alguns dos desafios que já fiz, e que estou expandindo constantemente:
 
-* **Desafio 1** - Mostre a lista na ordem numérica
+* **Desafio 1** - Mostrando a lista na ordem numérica
+* **Desafio 2** - Imprimindo a soma dos números pares da lista
 
 > **Nota:** Cada exercício pode ser visto como um aprendizado específico, e estarei atualizando o repositório com mais desafios e demos conforme for avançando no estudo da linguagem.
 
