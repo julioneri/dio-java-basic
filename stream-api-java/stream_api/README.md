@@ -28,6 +28,7 @@ Aqui estão alguns dos desafios que já fiz, e que estou expandindo constantemen
 * **Desafio 16** - Agrupando os números em pares e ímpares
 * **Desafio 17** - Filtrando os números primos da lista
 * **Desafio 18** - Verificando se todos os números da lista são iguais
+* **Desafio 19** - Somando os números divisíveis por 3 e 5
 
 > **Nota:** Cada exercício pode ser visto como um aprendizado específico, e estarei atualizando o repositório com mais desafios e demos conforme for avançando no estudo da linguagem.
 
