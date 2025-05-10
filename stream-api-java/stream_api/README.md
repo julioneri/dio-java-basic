@@ -27,6 +27,7 @@ Aqui estão alguns dos desafios que já fiz, e que estou expandindo constantemen
 * **Desafio 15** - Verificando se a lista contém pelo menos um número negativo
 * **Desafio 16** - Agrupando os números em pares e ímpares
 * **Desafio 17** - Filtrando os números primos da lista
+* **Desafio 18** - Verificando se todos os números da lista são iguais
 
 > **Nota:** Cada exercício pode ser visto como um aprendizado específico, e estarei atualizando o repositório com mais desafios e demos conforme for avançando no estudo da linguagem.
 
