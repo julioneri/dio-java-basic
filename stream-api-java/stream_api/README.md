@@ -24,6 +24,9 @@ Aqui estão alguns dos desafios que já fiz, e que estou expandindo constantemen
 * **Desafio 12** - Calculando o produto de todos os números da lista
 * **Desafio 13** - Filtrando os números que estão dentro de um intervalo
 * **Desafio 14** - Encontrando o maior número primo da lista
+* **Desafio 15** - Verificando se a lista contém pelo menos um número negativo
+* **Desafio 16** - Agrupando os números em pares e ímpares
+* **Desafio 17** - Filtrando os números primos da lista
 
 > **Nota:** Cada exercício pode ser visto como um aprendizado específico, e estarei atualizando o repositório com mais desafios e demos conforme for avançando no estudo da linguagem.
 
