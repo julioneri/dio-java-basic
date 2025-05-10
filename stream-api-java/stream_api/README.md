@@ -22,6 +22,7 @@ Aqui estão alguns dos desafios que já fiz, e que estou expandindo constantemen
 * **Desafio 10** - Agrupando os valores ímpares múltiplos de 3 ou de 5
 * **Desafio 11** - Somando os quadrados de todos os números da lista
 * **Desafio 12** - Calculando o produto de todos os números da lista
+* **Desafio 13** - Filtrando os números que estão dentro de um intervalo
 
 > **Nota:** Cada exercício pode ser visto como um aprendizado específico, e estarei atualizando o repositório com mais desafios e demos conforme for avançando no estudo da linguagem.
 
