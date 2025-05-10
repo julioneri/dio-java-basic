@@ -20,6 +20,7 @@ Aqui estão alguns dos desafios que já fiz, e que estou expandindo constantemen
 * **Desafio 8** - Somando os dígitos de todos os números da lista
 * **Desafio 9** - Verificando se todos os números da lista são distintos
 * **Desafio 10** - Agrupando os valores ímpares múltiplos de 3 ou de 5
+* **Desafio 11** - Somando os quadrados de todos os números da lista
 
 > **Nota:** Cada exercício pode ser visto como um aprendizado específico, e estarei atualizando o repositório com mais desafios e demos conforme for avançando no estudo da linguagem.
 
