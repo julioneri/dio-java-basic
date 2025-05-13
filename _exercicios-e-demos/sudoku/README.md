@@ -14,6 +14,8 @@ Um jogo de Sudoku simples feito em Java, jogado via terminal, com foco em aprend
 
 ### Argumentos para passar no running do projeto:
 
+
+```
 "0,0;4,false" "1,0;7,false" "2,0;9,true" "3,0;5,false" "4,0;8,true" "5,0;6,true" \
 "6,0;2,true" "7,0;3,false" "8,0;1,false" "0,1;1,false" "1,1;3,true" "2,1;5,false" \
 "3,1;4,false" "4,1;7,true" "5,1;2,false" "6,1;8,false" "7,1;9,true" "8,1;6,true" \
@@ -28,3 +30,4 @@ Um jogo de Sudoku simples feito em Java, jogado via terminal, com foco em aprend
 "3,7;6,false" "4,7;4,true" "5,7;7,false" "6,7;5,false" "7,7;2,true" "8,7;3,false" \
 "0,8;3,false" "1,8;2,false" "2,8;6,true" "3,8;8,true" "4,8;5,true" "5,8;1,false" \
 "6,8;4,true" "7,8;7,false" "8,8;9,false"
+```
