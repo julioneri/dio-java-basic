@@ -53,7 +53,7 @@ Fornece uma interface simplificada para um conjunto de subsistemas mais complexo
 ## 🧑‍💻 Autor
 
 **Júlio César (julioneri)**
-Desenvolvedor Full Stack com foco em soluções modernas para backend e frontend
+Desenvolvedor Full Stack | Entusiasta de boas práticas de código
 [GitHub](https://github.com/julioneri)
 
 ---
